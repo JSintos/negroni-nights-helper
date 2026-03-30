@@ -1,0 +1,30 @@
+{
+  "name": "negroni-nights-helper",
+  "version": "1.0.0",
+  "description": "This project helps keep track of Negoni Nights sessions, and outputs various data points related to the entries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSintos/negroni-nights-helper.git"
+  },
+  "author": "Joshua Sintos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JSintos/negroni-nights-helper/issues"
+  },
+  "homepage": "https://github.com/JSintos/negroni-nights-helper#readme",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongodb": "^7.1.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.0"
+  }
+}
