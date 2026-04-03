@@ -5,12 +5,14 @@ import cors from "cors"
 // Routes
 // import nights from "./routes/api"
 
-const PORT = process.env.PORT || 5050
+const PORT = process.env.PORT || 5001
 const app = express()
 
 app.use(express.json())
 app.use(cors())
 // app.use("/nights", nights)
+// app.use("/drinks", drinks)
+// app.use("/guests", guests)
 
 app.get("/", () => {
     console.log("/////")
